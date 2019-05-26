@@ -1,0 +1,40 @@
+body, html {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+  
+.bg {
+    background-image: url("kitty-cat-kitten-pet-45201.jpeg");
+    object-fit: contain;
+    height:inherit; 
+    background-position:inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.bg-div {
+    position: inherit;
+    object-fit: contain;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #f2c28c;
+	opacity: .7;
+	z-index: 1;
+}
+
+#main{
+    height: 100%;
+    margin-bottom: 50vh;
+}
+
+#txt{
+    position: relative;
+    top: 15vh;
+    align-content: center;
+}
