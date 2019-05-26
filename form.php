@@ -1,13 +1,14 @@
 <html>
     <body>
         <?php 
+        include './export.php';
         require_once "Mail.php";
-        $username = $_SERVER['USERNAME'];
-        $password = $_SERVER['PASSWORD'];
+        $username = $USERNAME;
+        $password = $PASSWORD;
         $smtpHost = 'ssl://smtp.gmail.com';
         $smtpPort = '465';
-        $to = $_SERVER['TO_EMAIL'];
-        $from =  $_SERVER['USERNAME'];
+        $to = $TO_EMAIL;
+        $from =  $USERNAME;
 
         $subject = 'Contact Form';
         $successMessage = 'Message successfully sent!';
